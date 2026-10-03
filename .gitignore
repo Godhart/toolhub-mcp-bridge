@@ -1,13 +1,4 @@
-# By default all that starts with dot
-.*
-
-# Some dot files are necessary
-!.gitignore
-!.gitattributes
-!.editorconfig
-!.dockerignore
-
-# Python related stuff 
+.venv/
 __pycache__/
 .pytest_cache/
 *.pyc
